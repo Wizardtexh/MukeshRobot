@@ -103,7 +103,7 @@ buttons = [
         InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ","https://t.me/MONSTER_TERA_BAAP1"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ",url="https://t.me/MONSTER_TERA_BAAP1"),
     ],
     
 
