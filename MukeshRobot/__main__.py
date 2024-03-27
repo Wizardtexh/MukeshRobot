@@ -80,7 +80,8 @@ PM_START_TEXT = """
 ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
 ➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
 ─────────────────
-[𝐌𝐎𝐍𝐒𝐓𝐄𝐑](https://t.me/monster_king_is_here
+[𝐌𝐎𝐍𝐒𝐓𝐄𝐑](https://t.me/monster_king_is_here)
+[𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/MONSTER_TERA_BAAP1)
 ─────────────────
 """
 
@@ -100,6 +101,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ","https://t.me/MONSTER_TERA_BAAP1"),
     ],
     
 
