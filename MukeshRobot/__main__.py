@@ -80,30 +80,29 @@ PM_START_TEXT = """
 ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
 ➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
 ─────────────────
-[𝐌𝐎𝐍𝐒𝐓𝐄𝐑](https://t.me/monster_king_is_here)
-[𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/MONSTER_TERA_BAAP1)
+[𝐅𝐔𝐂𝐊𝐄𝐑 𝐍𝐀𝐊𝐒𝐇](https://t.me/btwnaksh)
+[𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/radhe_shyam_ji)
 ─────────────────
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🔰", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="⚜️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="◼️", callback_data="source_"),
-        InlineKeyboardButton(text="☢️", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🔰", callback_data="naksh_back"),
+        InlineKeyboardButton(text="⚜️", callback_data="naksh_"),
+        InlineKeyboardButton(text="☢️", url=f"tg://user?id="),
         InlineKeyboardButton(text="♨️", callback_data="Main_help"),
      ],
     [
         InlineKeyboardButton(
             text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+            url=f"https://t.me/sexyhuvai?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ",url="https://t.me/MONSTER_TERA_BAAP1"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ",url="https://t.me/btwnaksh"),
     ],
     
 
@@ -391,7 +390,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
+                            text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="PAPANAKSH"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍᴍᴀɴᴅs 💁", callback_data="Main_help"
@@ -412,7 +411,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "mukesh_support":
+    elif query.data == "PAPANAKSH":
         query.message.edit_caption("**๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀ**"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
